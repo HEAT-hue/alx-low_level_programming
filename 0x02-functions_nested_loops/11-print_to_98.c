@@ -18,7 +18,7 @@ void print_to_98(int var)
 	if (var > stopLimit)
 	{
 		int ii;
-		
+
 		for (ii = var; ii >= stopLimit; ii--)
 		{
 			print(ii);
@@ -32,10 +32,11 @@ void print_to_98(int var)
 	else
 	{
 		int jj;
-		
+
 		for (jj = var; jj <= stopLimit; jj++)
 		{
 			print(jj);
+		
 			if (jj != stopLimit)															{
 			_putchar(',');
 			_putchar(' ');
