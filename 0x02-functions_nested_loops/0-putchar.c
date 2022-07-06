@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main
+ * main - this program prints a character
  *
  * Return: (0) if successful
  */
-
 int main(void)
 {
 	char var[] = "_putchar";
