@@ -1,5 +1,5 @@
 /**
- * reset_to_98: Resets a variable to 98
+ * reset_to_9 -  Resets a variable to 98
  *
  * @n: Memory address of the variable to be reset
  *
