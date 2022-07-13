@@ -19,12 +19,9 @@ void print_rev(char *s)
 		++s;
 	}
 
-	--s;	
+	for (index = len; index >= 0; index--)
+		_putchar(str[index]);
 
-	for (index = len; index >= 0; --index)
-	{
-		_putchar(*s);
-		--s;
-	}
+	_putchar('\n');
 
 }
