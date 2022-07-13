@@ -19,7 +19,7 @@ void print_rev(char *s)
 		++s;
 	}
 
-	//--s;
+	
 
 	for (index = len; index >= 0; --index)
 	{
