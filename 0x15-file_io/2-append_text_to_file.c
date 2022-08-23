@@ -1,12 +1,8 @@
 #include "main.h"
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
 
 /**
- * _strlen - finds the length of a string
- * @str: pointer to the string
+ * _strlen - length of the string
+ * @str: string
  *
  * Return: length of the string
  */
@@ -20,7 +16,7 @@ size_t _strlen(char *str)
 }
 
 /**
- * append_text_to_file - appends a text at the end of a file.
+ * append_text_to_file - appends a text at the end of a file
  * @filename: name of the file
  * @text_content: NULL terminated string to add at the end of the file
  *
